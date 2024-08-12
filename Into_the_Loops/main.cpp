@@ -24,7 +24,7 @@ void for_loop_func(){
 }
 
 void while_loop_func(){
-    size_t COUNT {10};
+    size_t COUNT {10}; // best practise is to keep tha COUNT in a seperate variable
     size_t i {};
     while (i < COUNT)
     {
